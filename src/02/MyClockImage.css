@@ -1,0 +1,9 @@
+.animation{
+animation: ping infinite linear 2s ; /* ping 1s cubic-bezier(0, 0, 0.2, 1) infinite */
+}
+@keyframes ping {
+  75%, 100% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
