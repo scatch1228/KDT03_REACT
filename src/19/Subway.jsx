@@ -1,6 +1,6 @@
 import TailSelect from "../components/TailSelect"
 import SubwayBox from "./SubwayBox"
-import sarea from "../19/sarea.json"
+import sarea from "./sarea.json"
 import { useEffect, useRef, useState } from "react"
 
 const serviceKey = `c36b872e11a4ce7a8e05133a997bcafac2109f0202652081cdf8e17fa766483d`;

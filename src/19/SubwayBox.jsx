@@ -1,4 +1,4 @@
-import scode from '../19/scode.json'
+import scode from './scode.json'
 
 export default function SubwayBox({time,data}) {
     const tags = Object.keys(scode).map(item=>{
