@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { loggedin} from "../20/Login"
+import { loggedin} from "../20/LoginAtom"
 import { useAtomValue } from "jotai"
 
 export default function Header() {

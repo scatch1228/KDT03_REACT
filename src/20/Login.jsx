@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../supabase/client';
 import { useAtom } from 'jotai';
-import { loggedin } from './Login';
+import { loggedin } from './LoginAtom';
 
 function Login() {
   //logged in or not
